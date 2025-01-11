@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    x: 160px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6; /* Whole banner background color */
+    padding: 80px 100px;
+    border-radius: 24px;
+    width: 1280px;
+    height: 560px;
+    margin: auto;
+}
+
+.text-content {
+    max-width: 622px;
+}
+
+.subtitle {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E ;
+    opacity: 0.5;
+    margin: 0;
+}
+
+.main-heading {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin: 24px 0;
+}
+
+.explore-button {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50; /* Button background color */
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    width: 270px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.image-content {
+    max-width: 600px;
+    max-height: 100%;
+}
+
+.image-content img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* The Vision of Future Section */
+.vision-section {
+    width: 1280px;
+    margin: 80px auto 32px;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.vision-heading h1 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+}
+
+.vision-description p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.vision-cards {
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+}
+
+.vision-card {
+    width: 410.67px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    box-sizing: border-box;
+}
+
+.card-icon img {
+    width: 64px;
+    height: 64px;
+}
+
+.vision-card h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+}
+
+.vision-card p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.card-button {
+    background-color: rgb(84, 144, 245);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 122px;
+    height: 41px;
+    
+}
