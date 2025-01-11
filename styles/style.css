@@ -46,7 +46,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     color: white;
-    background-color: #006A50; /* Button background color */
+    background-color: #006A50; 
     border: none;
     padding: 17px 34px;
     border-radius: 8px;
@@ -162,7 +162,9 @@ secondary-bg3{
     width: 122px;
     height: 41px;
     position: static;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
  .first {
     background-color:rgb(84, 144, 245);
@@ -363,4 +365,9 @@ secondary-bg3{
   }
   .for-left{
     text-align: left;
+  }
+  
+  .mapping{
+   margin: 180px 80px;
+   align-items: center;
   }
