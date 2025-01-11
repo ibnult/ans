@@ -174,3 +174,193 @@ secondary-bg3{
 .third {
     background-color: rgb(255, 194, 57);
 }
+
+
+/* Donate Section Styles */
+.donate-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin: 40px auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.donate-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+
+.donate-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.donation-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.donation-card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.donation-card:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.donation-card.selected {
+    background-color: #C6E4D6;
+    border-color: #006A50;
+    color: #006A50;
+}
+
+.donation-input {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+
+.donation-input:focus {
+    border-color: #006A50;
+    outline: none;
+}
+
+.donate-button {
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #004A36;
+}
+
+
+/* Newsletter Section Styles */
+.newsletter-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    width: 600px;
+    margin: 40px auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.newsletter-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+
+.newsletter-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.newsletter-input {
+    flex: 1;
+    max-width: 400px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.newsletter-input:focus {
+    border-color: #006A50;
+    outline: none;
+}
+
+.newsletter-button {
+    background-color: #006A50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.newsletter-button:hover {
+    background-color: #004A36;
+}
+
+.newsletter-note {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.5);
+    margin-top: 8px;
+}
+
+
+/* Yousuf sorker  */
+
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8; 
+    width: 1280px;
+    height: 256px;
+    margin: 20px auto; 
+    border-radius: 16px;
+    padding: 48px 26px 48px 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+  }
+  
+  .quote-content footer {
+    text-align: right;
+    color: #666;
+    font-size: 0.9em;
+  }
+  .for-left{
+    text-align: left;
+  }
