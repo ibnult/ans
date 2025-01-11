@@ -139,15 +139,26 @@ body {
 }
 
 .card-button {
-    background-color: rgb(84, 144, 245);
+   
     color: white;
     font-size: 16px;
     font-weight: 600;
-    padding: 11px 20px;
+    padding: 11px 20px 11px 20px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
     width: 122px;
     height: 41px;
+    position: static;
     
+}
+ .first {
+    background-color:rgb(84, 144, 245);
+
+}
+ .second {
+    background-color: #006A50;
+}
+.third {
+    background-color: rgb(255, 194, 57);
 }
